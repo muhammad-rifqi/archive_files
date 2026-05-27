@@ -1,39 +1,217 @@
 <html>
 <head>
-<title>Archive App</title>
+    <title>Archive App</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background: #f4f6f9;
+            color: #333;
+            padding: 40px 20px;
+        }
+
+        .container{
+            max-width: 800px;
+            margin: auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+
+        h1{
+            text-align: center;
+            margin-bottom: 30px;
+            color: #222;
+        }
+
+        h3{
+            margin-top: 30px;
+            margin-bottom: 10px;
+            color: #0d6efd;
+            font-size: 20px;
+        }
+
+        hr{
+            margin-bottom: 15px;
+            border: none;
+            height: 2px;
+            background: #e5e5e5;
+        }
+
+        ul{
+            list-style: none;
+        }
+
+        ul li{
+            background: #f8f9fa;
+            margin-bottom: 10px;
+            padding: 12px 15px;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        ul li:hover{
+            background: #e9f2ff;
+            transform: translateX(5px);
+        }
+
+        a{
+            text-decoration: none;
+            color: #0d6efd;
+            font-weight: bold;
+        }
+
+        a:hover{
+            color: #084298;
+        }
+
+        @media(max-width: 600px){
+            .container{
+                padding: 20px;
+            }
+
+            h1{
+                font-size: 26px;
+            }
+
+            h3{
+                font-size: 18px;
+            }
+
+            ul li{
+                font-size: 14px;
+            }
+        }
+    </style>
+
 </head>
+
 <body>
-<h1>File Archive: </h1>
-<h3>WEBSITE:</h3><hr>
-<ul>
-    <li><a href="https://rifhandi.com" target="_blank">RIFHANDI.COM</a></li>
-    <li><a href="https://archive.rifhandi.com">ARCHIVE RIFHANDI.COM</a></li>
-    <li><a href="https://srihandayani.my.id/" target="_blank">SRI HANDAYANI</a></li>
-</ul>
-<h3>CURICULUM VITAE:</h3><hr>
-<ul>
-    <li>2026 <a href="https://drive.google.com/file/d/1R26r13Bp9Ycwi77aKANAOIhEVsRhCAd2/view?usp=sharing" target="_blank">muhammad45rifki</a></li>
-</ul>
-<h3>SOCIAL MEDIA:</h3><hr>
-<ul>
-    <li><a href="https://github.com/muhammad-rifqi?tab=repositories" target="_blank">GITHUB.COM</a></li>
-    <li><a href="https://www.linkedin.com/in/muhammad-rifqy-004b47107" target="_blank">LINKEDIN.COM</a></li>
-    <li><a href="https://www.youtube.com/@muhammadrifqi9805" target="_blank">YOUTUBE.COM</a></li>
-    <li><a href="https://web.facebook.com/muhammad45rifki/" target="_blank">FACEBOOK.COM</a></li>
-</ul>
-<h3>EMAIL:</h3><hr>
-<ul>
-    <li><a href="mailto:muhammad45rifki@gmail.com">muhammad45rifki@gmail.com</a></li>
-</ul>
-<h3>CODE TUTORIAL:</h3><hr>
-<ul>
-    <li><a href="https://rifhandi.blogspot.com/" target="_blank">Tutorial Kode Aplikasi</a></li>
-</ul>
-<h3>Freelance Team:</h3><hr>
-<ul>
-    <li>Muhammad Rifqi > <a href="/rifqi.jpg" target="_blank">Lihat Kartu Nama</a></li>
-    <li>Khalid Febriono > <a href="/khalid.jpg" target="_blank">Lihat Kartu Nama</a></li>
-    <li>Rizsky Darmawan > <a href="/rizky.jpg" target="_blank">Lihat Kartu Nama</a></li>
-</ul>
+
+<div class="container">
+
+    <h1>File Archive</h1>
+
+    <h3>WEBSITE:</h3>
+    <hr>
+
+    <ul>
+        <li>
+            <a href="https://rifhandi.com" target="_blank">
+                RIFHANDI.COM
+            </a>
+        </li>
+
+        <li>
+            <a href="https://archive.rifhandi.com" target="_blank">
+                ARCHIVE RIFHANDI.COM
+            </a>
+        </li>
+
+        <li>
+            <a href="https://srihandayani.my.id/" target="_blank">
+                SRI HANDAYANI
+            </a>
+        </li>
+    </ul>
+
+    <h3>CURRICULUM VITAE:</h3>
+    <hr>
+
+    <ul>
+        <li>
+            2026
+            <a href="https://drive.google.com/file/d/1R26r13Bp9Ycwi77aKANAOIhEVsRhCAd2/view?usp=sharing" target="_blank">
+                muhammad45rifki
+            </a>
+        </li>
+    </ul>
+
+    <h3>SOCIAL MEDIA:</h3>
+    <hr>
+
+    <ul>
+        <li>
+            <a href="https://github.com/muhammad-rifqi?tab=repositories" target="_blank">
+                GITHUB.COM
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.linkedin.com/in/muhammad-rifqy-004b47107" target="_blank">
+                LINKEDIN.COM
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.youtube.com/@muhammadrifqi9805" target="_blank">
+                YOUTUBE.COM
+            </a>
+        </li>
+
+        <li>
+            <a href="https://web.facebook.com/muhammad45rifki/" target="_blank">
+                FACEBOOK.COM
+            </a>
+        </li>
+    </ul>
+
+    <h3>EMAIL:</h3>
+    <hr>
+
+    <ul>
+        <li>
+            <a href="mailto:muhammad45rifki@gmail.com">
+                muhammad45rifki@gmail.com
+            </a>
+        </li>
+    </ul>
+
+    <h3>CODE TUTORIAL:</h3>
+    <hr>
+
+    <ul>
+        <li>
+            <a href="https://rifhandi.blogspot.com/" target="_blank">
+                Tutorial Kode Aplikasi
+            </a>
+        </li>
+    </ul>
+
+    <h3>Freelance Team:</h3>
+    <hr>
+
+    <ul>
+        <li>
+            Muhammad Rifqi >
+            <a href="/rifqi.jpg" target="_blank">
+                Lihat Kartu Nama
+            </a>
+        </li>
+
+        <li>
+            Khalid Febriono >
+            <a href="/khalid.jpg" target="_blank">
+                Lihat Kartu Nama
+            </a>
+        </li>
+
+        <li>
+            Rizsky Darmawan >
+            <a href="/rizky.jpg" target="_blank">
+                Lihat Kartu Nama
+            </a>
+        </li>
+    </ul>
+
+</div>
+
 </body>
 </html>
